@@ -10,6 +10,15 @@ a {
     color: #000000;
 }
 
+.home-body{
+    /*Sin scroll*/
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 /*Header*/
 
 header {
@@ -51,11 +60,10 @@ header .header-icons .icons a img{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    width: 100%;
     background-image: url('../imagenes/background2.jpeg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .home-main section{
