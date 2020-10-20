@@ -36,7 +36,7 @@ header .header-icons {
 }
 
 header .header-icons .icons{
-    width: 300px;
+    width: 500px;
     height: auto;
     display: flex;
     justify-items: flex-end;
