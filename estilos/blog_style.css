@@ -35,3 +35,38 @@ nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
 }
+
+/*Main*/
+
+.blog-main{
+    display: grid;
+}
+
+.blog-new-container{
+    background-color: rgb(191, 196, 199) ;
+    padding: 0 50px 49px;
+}
+
+.blog-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blog-new-img-container{
+    grid-column: 1;
+}
+
+.blog-new-img-container img{
+    height: 350px;
+    width: 350px;
+}
+
+.blog-new-info-container{
+    grid-column: 2;
+}
+
+.blog-new-info-container p{
+    margin-bottom: 35px;
+}
+
