@@ -20,7 +20,7 @@ nav .nav-logo-container a img{
 }
 
 nav .nav-logo-cotainer img {
-    width: 220px;
+    width: 20px;
     margin-top: 10px;
 }
 
@@ -70,3 +70,39 @@ nav .profile-link a {
     margin-bottom: 35px;
 }
 
+
+
+ /*Blogs*/
+
+
+ .blogs-posts-container{
+    padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3{
+    border-bottom: 1p solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.blogs-button{
+    border: 1px solid #cdd2da;
+    padding: 1px 15px;
+    font-size: 12px;
+}
+
+.blogs-posts-container .posts-container{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blogs-posts-container .posts-container p{
+   margin-bottom: 45px;
+}
+
+.blogs-posts-container .posts-container img{
+   width: 100%;
+}
