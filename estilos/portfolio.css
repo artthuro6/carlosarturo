@@ -1,0 +1,72 @@
+@media only screen and (min-width: 600px) {    
+    .portafolio{
+        padding: 50px;
+        margin-top: 10vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+.portafolio .a-container{
+    display: inline-block;
+    padding-left: 50px;
+    max-width: 30%;
+}
+/*porjects*/
+.portafolio-gallery {   
+    margin-top: 30px;    
+    width: 550px;
+    height: 300px;
+    display: flex;
+    background: #203131; /*change*/
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portafolio-gallery li {
+    list-style-type: none;
+}
+.portafolio-gallery-2 li {
+    list-style-type: none;
+}
+.portafolio-env .portafolio-avatar{
+    width: 100px;
+    margin: 0 5% 5% 0;
+    position: relative;
+}
+.portafolio-avatar-picture {
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+    margin-left: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.portafolio-avatar-picture img{
+    border-style: none;
+    vertical-align: text-top;
+}
+.portafolio-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portafolio-avatar p{
+    font-size: 20px;
+    padding-left: 30px;
+    color: white;
+}
+.portafolio-conten{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
+/* Contacto */
+.form-label{
+    color: white;
+    font-size: 25px;
+}
